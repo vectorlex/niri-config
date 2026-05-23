@@ -1,0 +1,14 @@
+window-rule {
+  geometry-corner-radius 20
+  clip-to-geometry true
+  draw-border-with-background false
+  background-effect {
+    blur true
+    xray false
+  }
+}
+
+window-rule {
+  match app-id="firefox"
+  default-column-width { proportion 0.66667; }
+}

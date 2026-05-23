@@ -1,0 +1,32 @@
+hotkey-overlay {
+    skip-at-startup
+}
+
+prefer-no-csd
+
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+
+animations {
+    // Uncomment to turn off all animations.
+    // off
+
+    // Slow down all animations by this factor. Values below 1 speed them up instead.
+    // slowdown 3.0
+}
+
+debug {
+  // Allows notification actions and window activation from Noctalia.
+  honor-xdg-activation-with-invalid-serial
+}
+
+// Set the overview wallpaper on the backdrop.
+layer-rule {
+  match namespace="^noctalia-overview*"
+  place-within-backdrop true
+}
+
+cursor {
+    xcursor-theme "Bibata-Modern-Ice"
+    xcursor-size 24
+    hide-when-typing
+}

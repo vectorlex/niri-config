@@ -1,0 +1,7 @@
+environment {
+  QT_QPA_PLATFORMTHEME "qt6ct"
+  QT_IM_MODULES "wayland;fcitx"
+  QT_IM_MODULE "fcitx"
+  XMODIFIERS "@im=fcitx"
+}
+
