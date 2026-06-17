@@ -3,11 +3,11 @@ binds {
     Mod+T { spawn "kitty"; }
     Mod+Return { spawn "firefox"; }
 
-    Mod+Space { spawn-sh "quickshell -c noctalia-shell ipc call launcher toggle"; }
-    Mod+V { spawn-sh "quickshell -c noctalia-shell ipc call plugin:clipper toggle"; }
-    Mod+S { spawn-sh "quickshell -c noctalia-shell ipc call controlCenter toggle"; }
-    Mod+I { spawn-sh "quickshell -c noctalia-shell ipc call settings toggle"; }
-    Mod+X { spawn-sh "quickshell -c noctalia-shell ipc call sessionMenu toggle"; }
+    Mod+Space { spawn-sh "noctalia msg panel-toggle launcher"; }
+    Mod+V { spawn-sh "noctalia msg panel-toggle clipboard"; }
+    Mod+S { spawn-sh "noctalia msg panel-toggle control-center"; }
+    Mod+I { spawn-sh "noctalia msg settings-toggle"; }
+    Mod+X { spawn-sh "noctalia msg panel-toggle session"; }
 
     Mod+Tab repeat=false { toggle-overview; }
 
