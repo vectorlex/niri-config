@@ -3,6 +3,7 @@
 // Check the wiki for a full description of the configuration:
 // https://niri-wm.github.io/niri/Configuration:-Introduction
 
+include "./environments.kdl"
 include "./io.kdl"
 include "./autostarts.kdl"
 include "./layout.kdl"
@@ -10,6 +11,5 @@ include "./binds.kdl"
 include "./blur.kdl"
 include "./window-rules.kdl"
 include "./noctalia.kdl"
-include "./environments.kdl"
 include "./others.kdl"
 
