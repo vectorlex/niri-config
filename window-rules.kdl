@@ -25,7 +25,6 @@ window-rule {
 
 window-rule {
   match app-id="kitty"
-  match is-active=false
 
   opacity 1.0
 }
