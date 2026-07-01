@@ -1,5 +1,5 @@
 hotkey-overlay {
-    skip-at-startup
+  skip-at-startup
 }
 
 prefer-no-csd
@@ -7,11 +7,11 @@ prefer-no-csd
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 
 animations {
-    // Uncomment to turn off all animations.
-    // off
+  // Uncomment to turn off all animations.
+  // off
 
-    // Slow down all animations by this factor. Values below 1 speed them up instead.
-    // slowdown 3.0
+  // Slow down all animations by this factor. Values below 1 speed them up instead.
+  // slowdown 3.0
 }
 
 debug {
@@ -26,7 +26,7 @@ layer-rule {
 }
 
 cursor {
-    xcursor-theme "Bibata-Modern-Ice"
-    xcursor-size 24
-    hide-when-typing
+  xcursor-theme "Bibata-Modern-Ice"
+  xcursor-size 24
+  hide-when-typing
 }
